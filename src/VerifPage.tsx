@@ -25,7 +25,15 @@ export default function VerifPage() {
         }}
       >
         <h1>Dynamic Meta Tag Test 🎅</h1>
-        <div style={{ display: "flex", gap: 10 }}>
+        <div
+          style={{
+            display: "flex",
+            gap: 10,
+            flexWrap: "wrap",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           <div>
             <p>키보드 이미지:</p>
             <img

@@ -14,7 +14,7 @@ export default function VerifPage() {
           property="og:image"
           content={`https://www.nftruth.io/data/${contractAddress}/${nftId}`}
         />
-        <meta property="og:url" content="이 사진은 원본입니다." />
+        <meta property="og:description" content="이 사진은 원본입니다." />
       </Helmet>
       <div
         style={{

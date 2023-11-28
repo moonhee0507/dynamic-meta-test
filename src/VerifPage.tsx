@@ -9,12 +9,38 @@ export default function VerifPage() {
   return (
     <>
       <Helmet>
+        <title>Verif. Page</title>
+        <meta charSet="utf-8" />
         <meta property="og:title" content="비스퀘어랩" />
         <meta
           property="og:image"
           content={`https://www.nftruth.io/data/${contractAddress}/${nftId}`}
         />
         <meta property="og:description" content="이 사진은 원본입니다." />
+        <meta
+          property="og:url"
+          content={`https://dynamic-meta-test-kappa.vercel.app/vrf/qr/${contractAddress}/${nftId}`}
+        />
+        <meta property="og:type" content="website" />
+
+        <meta
+          name="twitter:card"
+          content={`https://www.nftruth.io/data/${contractAddress}/${nftId}`}
+        />
+        <meta
+          property="twitter:domain"
+          content="dynamic-meta-test-kappa.vercel.app"
+        />
+        <meta
+          property="twitter:url"
+          content={`https://dynamic-meta-test-kappa.vercel.app/vrf/qr/${contractAddress}/${nftId}`}
+        />
+        <meta name="twitter:title" content="비스퀘어랩" />
+        <meta name="twitter:description" content="이 사진은 원본입니다." />
+        <meta
+          name="twitter:image"
+          content={`https://www.nftruth.io/data/${contractAddress}/${nftId}`}
+        />
       </Helmet>
       <div
         style={{
